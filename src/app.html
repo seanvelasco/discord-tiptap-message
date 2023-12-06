@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Tiptap Discord message demo</title>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	%sveltekit.head%
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">%sveltekit.body%</div>
+</body>
+
+</html>
+
+<style>
+	body {
+		margin: 0;
+		height: 100dvh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		font-family: sans-serif;
+		background-color: #1e1f22;
+	}
+
+	button {
+		/* all: unset; */
+	}
+
+	[contenteditable] {
+		outline: none;
+	}
+
+	p {
+		margin-top: 0;
+	}
+
+	* {
+		box-sizing: border-box;
+	}
+</style>
