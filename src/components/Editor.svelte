@@ -122,7 +122,7 @@
 			content:
 				`Hello world!` +
 				`<pre><code>Select text to open options</code></pre>` +
-				`<blockquote>Use Discord-style markdown <code>*</code> <code>**</code> <code>~~</code> <code>></code> <code>|</code></blockquote>` +
+				`<blockquote>Use Discord-style markdown <code>*</code> <code>**</code> <code>~~</code> <code>></code> <code>\`</code> <code>\`\`\`</code> <code>|</code></blockquote>` +
 				`<p>Write something...</p>`,
 			editable: isEditable
 		})
